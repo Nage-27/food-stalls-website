@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Warung Makan || WM</title>
+    <link rel="stylesheet" href="src/output.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-poppins">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="max-w-6xl mx-auto px-5 md:px-8 h-16 flex items-center justify-between">
+
+            <!-- Logo -->
+             <a href="#" class="text-2xl font-bold text-gray-800">
+                Warung Makan
+            </a>
+
+            <!-- Desktop Menu -->
+            <ul class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <li><a href="#" class="text-primary">Home</a></li>
+                <li><a href="#about" class="hover:text-primary transition">Tentang Kami</a></li>
+                <li><a href="#menu" class="hover:text-primary transition">Menu</a></li>
+                <li><a href="#footer" class="hover:text-primary transition">Layanan</a></li>
+            </ul>
+
+            <!-- tombol pesan -->
+            <a href="#" class="bg-primary bg-yellow-700 text-white text-xs md:text-sm font-medium px-5 py-3 rounded-lg transition">
+                Pesan Sekarang
+            </a>
+        </nav>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-5 md:px-8 py-10 md:py-12">
+        <!-- HERO SECTION -->
+        <section id="about"
+                 class="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 mb-12 md:mb-14">
+
+            <!-- Hero Text -->
+            <div class="w-full md:w-1/2 order-2 md:order-1 text-center md:text-left">
+                <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight mb-3">
+                    Resep Turun-Temurun, Kelezatan Tanpa Batas.
+                </h1>
+
+                <p class="text-sm md:text-base leading-relaxed text-gray-800">
+                    Menghadirkan resep autentik warisan leluhur dengan kekayaan rempah pilihan khas Nusantara.
+                </p>
+            </div>
+
+            <!-- Hero Image -->
+            <div class="w-full md:w-1/2 order-1 md:order-2 flex justify-center md:justify-end">
+                <img
+                    src="./aset/chef-arnold-09112026-1500.webp"
+                    alt="Chef Food"
+                    class="w-40 h-40 md:w-52 md:h-52 lg:w-60 lg:h-60 object-cover rounded-full"
+                >
+            </div>
+
+        </section>
+
+
+        <!-- PRODUCT SECTION -->
+        <section id="menu">
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5">
+
+                <!-- PRODUCT 1 -->
+                <div class="bg-white p-3 rounded-xl shadow-sm flex flex-row md:flex-col gap-3">
+
+                    <img
+                        src="./aset/pecel-lele.jpg"
+                        alt="Pecel Lele"
+                        class="w-28 h-28 md:w-full md:h-32 object-cover rounded-lg flex-shrink-0"
+                    >
+
+                    <div class="flex flex-col flex-1 min-w-0">
+                        <h3 class="font-semibold text-sm md:text-base">
+                            Pecel Lele
+                        </h3>
+
+                        <p class="text-primary font-semibold text-sm mb-1">
+                            Rp 20.000
+                        </p>
+
+                        <p class="text-xs md:text-sm leading-relaxed text-gray-700 mb-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+
+                        <button class="mt-auto bg-primary bg-yellow-700 text-white text-xs md:text-sm font-medium py-2 px-3 rounded-lg transition">
+                            Tambah ke Keranjang
+                        </button>
+                    </div>
+                </div>
+
+
+                <!-- PRODUCT 2 -->
+                <div class="bg-white p-3 rounded-xl shadow-sm flex flex-row md:flex-col gap-3">
+
+                    <img
+                        src="./aset/mie-ayam.jpg"
+                        alt="Mie Ayam"
+                        class="w-28 h-28 md:w-full md:h-32 object-cover rounded-lg flex-shrink-0"
+                    >
+
+                    <div class="flex flex-col flex-1 min-w-0">
+                        <h3 class="font-semibold text-sm md:text-base">
+                            Mie Ayam
+                        </h3>
+
+                        <p class="text-primary font-semibold text-sm mb-1">
+                            Rp 15.000
+                        </p>
+
+                        <p class="text-xs md:text-sm leading-relaxed text-gray-700 mb-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+
+                        <button class="mt-auto bg-primary bg-yellow-700 text-white text-xs md:text-sm font-medium py-2 px-3 rounded-lg transition">
+                            Tambah ke Keranjang
+                        </button>
+                    </div>
+                </div>
+
+
+                <!-- PRODUCT 3 -->
+                <div class="bg-white p-3 rounded-xl shadow-sm flex flex-row md:flex-col gap-3">
+
+                    <img
+                        src="./aset/seblak.jpeg"
+                        alt="Seblak"
+                        class="w-28 h-28 md:w-full md:h-32 object-cover rounded-lg flex-shrink-0"
+                    >
+
+                    <div class="flex flex-col flex-1 min-w-0">
+                        <h3 class="font-semibold text-sm md:text-base">
+                            Seblak
+                        </h3>
+
+                        <p class="text-primary font-semibold text-sm mb-1">
+                            Rp 10.000
+                        </p>
+
+                        <p class="text-xs md:text-sm leading-relaxed text-gray-700 mb-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+
+                        <button class="mt-auto bg-primary bg-yellow-700 text-white text-xs md:text-sm font-medium py-2 px-3 rounded-lg transition">
+                            Tambah ke Keranjang
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- BANNER CTA -->
+     <section class="max-w-5xl mx-auto px-5 md:px-8 mb-10 bg-amber-600 rounded-2xl">
+
+        <div class="relative overflow-hidden bg-primary rounded-2xl px-6 py-10 md:px-12 md:py-12 text-white">
+
+            <div class="relative z-10 max-w-xl">
+
+                <span class="text-xs font-medium uppercase tracking-widest text-white/80">
+                    Special Offer
+                </span>
+
+                <h2 class="text-2xl md:text-3xl font-bold leading-tight mt-3 mb-3">
+                    Nikmati Makanan Favoritmu Hari Ini!
+                </h2>
+
+                <p class="text-sm md:text-base text-white/90 leading-relaxed mb-6">
+                    Temukan berbagai pilihan menu lezat dengan rasa terbaik.
+                    Pesan sekarang dan nikmati pengalaman makan yang menyenangkan!
+                </p>
+
+                <a href="#menu"
+                class="inline-block bg-white text-amber-600 text-primary hover:bg-gray-100 font-semibold text-sm px-6 py-3 rounded-lg transition duration-300">
+                    Pesan Sekarang
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="mt-12 bg-slate-100 pb-8 pt-8 text-center text-sm text-black">
+        <p class="">
+            Copyright &copy; 2026 Warung Makan. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
